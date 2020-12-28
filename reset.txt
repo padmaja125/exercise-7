@@ -1,0 +1,34 @@
+$ git log
+commit 7faa2f6ab8f18d18940e35ba2a855edcfdb4497a (HEAD -> master)
+Author: Padmaja Ramesh <62902780+padmaja125@users.noreply.github.com>
+Date:   Sun Dec 27 22:24:53 2020 -0500
+
+    added about.html
+
+commit 4b5d1ab0b9025fe051a2bdbc61e00d0b9ff768b3
+Author: Padmaja Ramesh <62902780+padmaja125@users.noreply.github.com>
+Date:   Sun Dec 27 22:22:36 2020 -0500
+
+    added inbox.txt
+
+commit 5a0df7256fe13f0950e95a547236c64617141873 (origin/master)
+Author: Padmaja Ramesh <62902780+padmaja125@users.noreply.github.com>
+Date:   Sun Dec 27 22:17:58 2020 -0500
+
+    output for hard reset added
+
+vimal@CREATIVEBEE MINGW64 /c/Data/Padhu/Training/Assignment/Git/exercise-7 (master)
+$ git reset --hard origin/master
+HEAD is now at 5a0df72 output for hard reset added
+
+vimal@CREATIVEBEE MINGW64 /c/Data/Padhu/Training/Assignment/Git/exercise-7 (master)
+$ git reset
+
+vimal@CREATIVEBEE MINGW64 /c/Data/Padhu/Training/Assignment/Git/exercise-7 (master)
+$ git log
+commit 5a0df7256fe13f0950e95a547236c64617141873 (HEAD -> master, origin/master)
+Author: Padmaja Ramesh <62902780+padmaja125@users.noreply.github.com>
+Date:   Sun Dec 27 22:17:58 2020 -0500
+
+    output for hard reset added
+
